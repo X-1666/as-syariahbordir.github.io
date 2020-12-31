@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<style>
+.intro-header, #about {
+display: none;
+}
+</style>
+<div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-8 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">{{ page.title }}</h2>
+
+  <div class="lead entry">
+    {{ content }}
+  </div>
+                </div>
+
+	<div class="sidebarBox">
+<div class="scrollingBox">
+<img src="../images/404.jpg"/>
+    </div>
+</div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+    </div>
+    <!-- /.content-section-a -->
+
+
+  {% include disqus.html %}
+</article>
