@@ -314,6 +314,10 @@ article {
 	width: 300px; 
 	float: right;
 	position: relative;
+
+    @include mobile {
+	display: none;
+	}
 }
 .scrollingBox {
 	width: 300px; 
