@@ -295,10 +295,6 @@ img {
   }
 }
 
-.posts > .post .judul {
-  display: none;
-}
-
 article {
   width: 850px;
   margin: auto;
@@ -362,14 +358,14 @@ article {
   background: #666;
 }
 
-.sidebarBox {
-  width: 300px;
-  float: right;
-  position: relative;
+@media screen and (max-width: 640px) {
+  .sidebarBox {
+    display: none;
+  }
 }
 
 .scrollingBox {
-  width: 300px;
+  width: 350px;
 }
 
 .wrapper-footer {
@@ -387,9 +383,24 @@ article {
   }
 }
 
-footer {
-  padding: 20px 0;
-  text-align: center;
+.foot-copy {
+  text-align: left;
+}
+
+@media screen and (max-width: 640px) {
+  .foot-copy {
+    text-align: center;
+  }
+}
+
+.foot-credit {
+  text-align: right;
+}
+
+@media screen and (max-width: 640px) {
+  .foot-credit {
+    text-align: center;
+  }
 }
 
 .highlight {
