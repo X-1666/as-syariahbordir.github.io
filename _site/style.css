@@ -364,6 +364,12 @@ article {
   }
 }
 
+@media screen and (max-width: 640px) {
+  .sidebarBox {
+    display: none;
+  }
+}
+
 .scrollingBox {
   width: 350px;
 }

@@ -309,8 +309,18 @@ article {
 }
 
 .sidebarBox {
+<<<<<<< HEAD
   @include mobile {
     display: none;}
+=======
+	width: 300px; 
+	float: right;
+	position: relative;
+
+    @include mobile {
+	display: none;
+	}
+>>>>>>> 775714e736f490fc7aa3b5e3769ea408e60207a5
 }
 .scrollingBox {
 	width: 350px; 

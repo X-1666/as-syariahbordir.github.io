@@ -6,7 +6,10 @@ title: You're up and running!
 
 
 ![_config.yml]({{ site.baseurl }}/images/404.jpg)
+<<<<<<< HEAD
 Next you can update your site name.
+=======
+>>>>>>> 775714e736f490fc7aa3b5e3769ea408e60207a5
 
  Avatar and other options using the _config.yml file in the root of your repository (shown below).
 
