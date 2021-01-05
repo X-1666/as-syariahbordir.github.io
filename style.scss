@@ -228,7 +228,6 @@ img {
 .posts {
     display: flex;
     flex-wrap: wrap;
-    max-width: 900px;
     margin: auto;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -238,7 +237,7 @@ img {
   padding-bottom: 2em;
   border-bottom: none;
     min-width: 280px;
-	max-width: 280px;
+	max-width: 350px;
     border: 1px solid #E9E9E9;
     border-radius: 7px;
     padding: 10px;
@@ -261,7 +260,7 @@ article {
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
-    width: 250px;
+    width: 350px;
     border: 1px solid #E9E9E9;
     border-radius: 7px;
     padding: 10px;
