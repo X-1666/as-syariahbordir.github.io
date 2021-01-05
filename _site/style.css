@@ -358,10 +358,10 @@ article {
   background: #666;
 }
 
-.sidebarBox {
-  width: 300px;
-  float: right;
-  position: relative;
+@media screen and (max-width: 640px) {
+  .sidebarBox {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 640px) {
