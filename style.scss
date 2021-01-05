@@ -248,11 +248,8 @@ img {
 	max-width: 100%;
 	margin:10px 0px;
 	}	
+}
 
-.judul {
-    display: none;
-}
-}
 article {
     width: 850px;
     margin: auto;
@@ -286,6 +283,7 @@ article {
     font-style: italic;
 
   }
+
 .intro-message {
     display: none;
 }
@@ -311,6 +309,8 @@ article {
 }
 
 .sidebarBox {
+  @include mobile {
+    display: none;}
 	width: 300px; 
 	float: right;
 	position: relative;
@@ -320,7 +320,7 @@ article {
 	}
 }
 .scrollingBox {
-	width: 300px; 
+	width: 350px; 
 }
 .wrapper-footer {
   margin-top: 50px;
@@ -334,9 +334,18 @@ article {
     width: 100%;}
 }
 
-footer {
-  padding: 20px 0;
-  text-align: center;
+.foot-copy {
+  text-align: left;
+
+  @include mobile {
+  text-align: center;}
+}
+
+.foot-credit {
+  text-align: right;
+
+  @include mobile {
+  text-align: center;}
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

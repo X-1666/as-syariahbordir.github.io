@@ -5,7 +5,7 @@
 			if ( $(window).scrollTop() > offsetPixels ) {
 				$('.scrollingBox').css({
 					'position': 'fixed',
-					'top': '40px'
+					'top': '50px'
 				});
 			} else {
 				$('.scrollingBox').css({
