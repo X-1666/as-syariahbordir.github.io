@@ -213,6 +213,14 @@ img {
   }
 }
 
+.navnav {
+  @include mobile {
+    background: whitesmoke;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    margin: 10px 0px 0px 120px;
+	}
+}
 
 //
 // .main
@@ -227,7 +235,7 @@ img {
 
 .posts {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     margin: auto;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -237,7 +245,7 @@ img {
   padding-bottom: 2em;
   border-bottom: none;
     min-width: 280px;
-	max-width: 350px;
+	max-width: 360px;
     border: 1px solid #E9E9E9;
     border-radius: 7px;
     padding: 10px;
@@ -248,7 +256,11 @@ img {
 	margin:10px 0px;
 	}	
 }
-
+@media (max-width:768px){
+.posts > .post {
+	max-width: 340px;
+	}
+}
 article {
     width: 850px;
     margin: auto;
@@ -260,7 +272,7 @@ article {
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
-    width: 350px;
+    width: auto;
     border: 1px solid #E9E9E9;
     border-radius: 7px;
     padding: 10px;
