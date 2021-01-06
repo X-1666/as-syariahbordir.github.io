@@ -256,7 +256,7 @@ img {
 	margin:10px 0px;
 	}	
 }
-@media (max-width:768px){
+@media (min-width:768px){
 .posts > .post {
 	max-width: 340px;
 	}
