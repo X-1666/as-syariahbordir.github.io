@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% include head.html %}
+<style>
+.blog-li {
+    display: none!important;
+}
+.toko {
+    margin-top: 70px;
+    margin: 10px;
+    height: 100%;
+}
+</style>
+</head>
+	<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header navground page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="/">{{ site.name }}</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navnav navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">  
+            	<li>
+                    <a class="page-scroll" href="{{ site.baseurl }}/">Back Home</a>
+                </li>            
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+    <div id="main" role="main" class="toko">
+     <div id="my-store-12142054" class="container"></div>
+<div>
+<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?12142054&data_platform=code&data_date=2021-01-07" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-12142054");</script>
+</div>
+    </div>
+	</body>
+		{% include js.html %}
+		{% include footer.html %}
+</html>

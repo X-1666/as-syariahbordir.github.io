@@ -244,7 +244,6 @@ img {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: none;
-    min-width: 280px;
 	max-width: 360px;
     border: 1px solid #E9E9E9;
     border-radius: 7px;
@@ -256,9 +255,33 @@ img {
 	margin:10px 0px;
 	}	
 }
+@media (max-width: 1024px){
+.posts > .post {
+    max-width: 450px;
+	margin:10px 10px;
+	}
+}
 @media (max-width:768px){
 .posts > .post {
 	max-width: 340px;
+	}
+}
+@media (max-width: 540px){
+.posts > .post {
+    max-width: 240px;
+	margin:10px 7px;
+	}
+}
+@media (max-width: 414px){
+.posts > .post {
+    max-width: 100%;
+	margin:10px 0px;
+	}
+}
+@media (max-width: 360px){
+.posts > .post {
+    max-width: 100%;
+	margin:10px 0px;
 	}
 }
 article {
