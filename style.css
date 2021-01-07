@@ -244,13 +244,13 @@ img {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: none;
-	max-width: 340px;
+    max-width: 340px;
     border: 1px solid #E9E9E9;
     border-radius: 7px;
     padding: 10px;
 	margin:10px;
 }
-@media (max-width: 1024px){
+@media (min-width: 1024px){
 .posts > .post {
 	max-width: 450px;
 	margin:10px 10px;
@@ -262,24 +262,24 @@ img {
 	margin:10px 10px;
 	}
 }
-@media (max-width: 640px) {
+@media (min-width: 640px) {
 	max-width: 100%;
 	margin:10px 0px;
 	}	
 }
-@media (max-width: 540px){
+@media (min-width: 540px){
 .posts > .post {
 	max-width: auto;
 	margin:10px 7px;
 	}
 }
-@media (max-width: 425px){
+@media (min-width: 425px){
 .posts > .post {
 	max-width: 100%;
 	margin:10px 0px;
 	}
 }
-@media (max-width: 360px){
+@media (min-width: 360px){
 .posts > .post {
 	max-width: 100%;
 	margin:10px 0px;
