@@ -6,10 +6,8 @@ title: Sejarah Bordir Tasikmalaya
 
 
 ![_sejarah bordir]({{ site.baseurl }}/images/as-syariah.jpeg)
-Sejarah Bordir Tasikmalaya.
-
-
-Produk Bordir Tasikmalaya sudah sejak lama terkenal, sasaran pasarnya bukan hanya pasar nasional, namun sudah sampai ke manca negara. Bidang usaha kecil dan menengah cukup banyak menyerap tenaga kerja dengan investasi rata-rata yang relatif kecil. Bidang usaha bordir di Tasikmalaya tercatat dapat menyerap tidak kurang dari 31.325 orang yang tersebar pada 2.728 unit usaha.
+Produk Bordir Tasikmalaya sudah sejak lama terkenal, sasaran pasarnya bukan hanya pasar nasional, namun sudah sampai ke manca negara. Bidang usaha kecil dan menengah cukup banyak menyerap tenaga kerja dengan investasi rata-rata yang relatif kecil.
+Bidang usaha bordir di Tasikmalaya tercatat dapat menyerap tidak kurang dari 31.325 orang yang tersebar pada 2.728 unit usaha.
 Bordir Daya Tarik Wisata,
 Bordir memang sudah menjadi industri perdagangan di Tasikmalaya, bahkan sudah menjadi daya tarik wisata. Banyak wisatawan yang sengaja datang ke Tasikmalaya untuk melihat sekaligus berbelanja bordir. Jika wisatawan datang ke Tasikmalaya hampir selalu menyempatkan diri membeli oleh-oleh kain bordir selain membeli kerajinan anyaman Rajapolah atau sandal tarumpah produk Tasik.
 Itu sebabnya, pasar bordir sekarang sudah begitu terbuka bahkan hingga ke mancanegara. Untuk dalam negeri saja, pangsa pasar bordir Tasik tersebar di seluruh Indonesia seperti Jakarta, Bandung, Cirebon, Solo, Yogyakarta, Surabaya, Bali, Lombok, Menado, Ujung Pandang, Banjarmasin,Balikpapan, Pontianak, Medan, Riau, dan lain-lainnya. Produk kerajinan ini juga menembus pasar ekspor.
