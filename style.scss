@@ -252,7 +252,7 @@ img {
 }
 @media (max-width: 1024px){
 .posts > .post {
-	max-width: 450px;
+	width: 450px;
 	margin:10px 10px;
 	}
 }
@@ -276,13 +276,13 @@ img {
 }
 @media (max-width: 425px){
 .posts > .post {
-	max-width: 100%;
+	width: 100%;
 	margin:10px 0px;
 	}
 }
 @media (max-width: 360px){
 .posts > .post {
-	max-width: 100%;
+	width: 100%;
 	margin:10px 0px;
 	}
 }
