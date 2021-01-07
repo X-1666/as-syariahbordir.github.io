@@ -262,8 +262,10 @@ img {
 	}
 }
 @media (max-width:768px){
+@media (min-width:768px){
 .posts > .post {
 	max-width: 340px;
+	margin:10px 10px;
 	}
 }
 @media (max-width: 540px){
