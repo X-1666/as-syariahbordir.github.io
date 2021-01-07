@@ -381,7 +381,8 @@ article {
   text-align: right;
 
   @include mobile {
-  text-align: center;}
+  text-align: center;
+	}
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
