@@ -250,14 +250,9 @@ img {
     padding: 10px;
 	margin:10px;
 
-@media (max-width: 640px) {
-	max-width: 100%;
-	margin:10px 0px;
-	}	
-}
 @media (max-width: 1024px){
 .posts > .post {
-    max-width: 450px;
+	max-width: 450px;
 	margin:10px 10px;
 	}
 }
@@ -267,13 +262,18 @@ img {
 	margin:10px 10px;
 	}
 }
+@media (max-width: 640px) {
+	max-width: 100%;
+	margin:10px 0px;
+	}	
+}
 @media (max-width: 540px){
 .posts > .post {
     max-width: 240px;
 	margin:10px 7px;
 	}
 }
-@media (max-width: 414px){
+@media (max-width: 425px){
 .posts > .post {
     max-width: 100%;
 	margin:10px 0px;
