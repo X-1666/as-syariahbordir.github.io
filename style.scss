@@ -17,6 +17,10 @@ html {
   font-size: 100%;
 }
 
+.element,html{scrollbar-width:none}
+html::-webkit-scrollbar,.element::-webkit-scrollbar
+{display:none}
+
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
