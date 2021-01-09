@@ -254,6 +254,12 @@ img {
     border-radius: 7px;
     padding: 10px;
 	margin:10px;
+img {
+    vertical-align: middle;
+    background-size: cover;
+    max-height: 200px;
+    width: fit-content;
+}
 }
 @media (max-width: 1024px){
 .posts > .post {
