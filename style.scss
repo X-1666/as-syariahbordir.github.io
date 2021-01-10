@@ -383,6 +383,13 @@ article {
 	}
 }
 
+.rorow {
+@include mobile {
+    display: revert!important;
+  text-align: center;
+  }
+}
+	
 .foot-copy {
   text-align: left;
 
